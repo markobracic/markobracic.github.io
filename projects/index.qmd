@@ -1,0 +1,29 @@
+---
+title: Projects
+---
+
+## Consistency and causes of individual diffrences in animal "optimism"
+
+<img src="/img/stability_causes.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://academic.oup.com/beheco/article/33/4/775/6601379', 'blank');"/>
+
+<a href="https://academic.oup.com/beheco/article/33/4/775/6601379" target="_blank">Paper</a> |
+<a href="https://datadryad.org/stash/dataset/doi:10.5061/dryad.2bvq83bsd" target="_blank">Data and code</a><br>
+
+We quantified individual differences in "optimism" of mice (cognitive judgement bias) and investigate the drivers of this variation. Repeatability analyses showed moderate consistency of individual differences, similar to other behaviours assessed in animal personality research. However, we did not find the evidence for influence of two selected environmental conditions and genotypes.
+
+## Ecological consequences of individual diffrences in animal "optimism"
+
+<img src="/img/consequences.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://www.researchsquare.com/article/rs-3071773/v1', 'blank');"/>
+
+<a href="https://www.researchsquare.com/article/rs-3071773/v1" target="_blank">Preprint</a> |
+<a href="https://osf.io/z6nm8/" target="_blank">Data and code</a><br>
+
+We explored potential ecological consequences of animals being more optimistic or pessimistic (cognitive judgement bias). Considering our main aim, we did not find evidence that optimistic and pessimistic mice make different foraging decisions under predation risk. However, we successfully developed a new test to investigate individual differences in ecologically relevant risk-taking of mice.
+
+## Philosophical perspective of animal "optimism"
+
+<img src="/img/mechanisms.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://link.springer.com/article/10.1007/s10071-022-01647-z', 'blank');"/>
+
+<a href="https://link.springer.com/article/10.1007/s10071-022-01647-z" target="_blank">Paper</a> 
+
+We theoretically analysed cognitive abilities are likely involved tests of animal "optimism" (cognitive judgement bias) based on the philosophy of cognition and experimental evidence. We determined three likely candidates and proposed an experimental design more likely one of these candidates.

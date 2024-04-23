@@ -1,0 +1,9 @@
+---
+title: Publications
+---
+
+Here are my latest publications:
+
+<br/><br/> <!-- adds two line breaks  -->
+
+{{< include publication_list.html >}}

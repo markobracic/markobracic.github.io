@@ -1,0 +1,44 @@
+```{r}
+
+library(scholar)
+library(tidyverse)
+library(glue)
+
+# based on https://thackl.github.io/automatically-update-publications-with-R-scholar
+
+# my google scholar user id from my profile url
+# https://scholar.google.com/citations?hl=en&user=nNY7GfwAAAAJ
+bracic <- "nNY7GfwAAAAJ"
+
+# pull from google and adjust
+html_1 <- get_publications(bracic) %>% 
+  as_tibble %>% arrange(desc(year)) %>%
+  mutate(
+    author = str_replace_all(author, "M Bračić", "<b>M Bračić</b>"), # Make the author's name bold
+    journal = ifelse(year == 2015, str_replace_all(journal, '"', ''), journal), # Remove double quotes from journal if year is 2015
+    number = ifelse(year == 2015, str_replace_all(number, '"', ''), number)# Remove double quotes from number if year is 2015
+  )
+
+# convert to htlm table - the ugly way ;)
+html_2 <- html_1 %>%
+  split(.$year) %>%
+    map(function(x){
+      x <- x %>%
+        glue_data('<tr><td width="100%">{author} ({year}) <a href="https://scholar.google.com/scholar?oi=bibs&cluster={cid}&btnI=1&hl=en">{title}</a>, {journal}, {number}</td></tr>') %>%
+        str_replace_all( ",\\s*</td></tr>", "</td></tr>") %>% #remove commas if it is the last character
+        str_replace_all("(, ,)", " ") # remove double commas
+      x <- c('<table class="publication-table" border="10px solid blue" cellspacing="0" cellpadding="6" rules="", frame=""><tbody>', x, '</tbody></table>')
+      return(x);
+    }) %>% rev
+    
+    
+html_3 <- map2(names(html_2) %>% paste0("<h3>", ., "</h3>"), html_2, c) %>% unlist
+ 
+html_4 <- c(
+  paste0('<p style="text-align: center; margin-top: -40px;"><small>Last updated <i>',
+         format(Sys.Date(), format="%B %d, %Y"),
+         '&ndash; Pulled automatically from my <a href="https://scholar.google.com/citations?hl=en&user=nNY7GfwAAAAJ">Google Scholar profile</a>.</p>'), html_3)
+    
+# write the html list to a file
+writeLines(html_4, "publication_list.html")
+```
