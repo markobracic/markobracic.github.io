@@ -22,6 +22,12 @@ about:
       href: "mailto:mbracic192@gmail.com" 
     - text: "ORCiD: 0000-0001-6528-3572"
       href: https://orcid.org/0000-0001-6528-3572
+      
+style: |
+  .content {
+      max-width: 800px; /* Adjust the max-width as needed */
+      margin: 0 auto; /* Center the content horizontally */
+      }
 ---
 
 # Welcome to my website!

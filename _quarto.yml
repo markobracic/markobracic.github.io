@@ -44,9 +44,15 @@ website:
     type: textbox
   page-footer: 
     left: |
-      <span class="faux-block">&#169; 2024 Marko Bracic CC0 1.0 License</span>
-    # right: |
-    #   <span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">View source on GitHub</a></span>
+      <span class="faux-block">&#169; 2024 Marko Bračić </span>
+    right: |
+       <span class="faux-block">
+       <a href="https://github.com/markobracic/markobracic.github.io">
+       View source code on my GitHub
+       </a> 
+       </span>
+
+       
 
 project:
   type: website
