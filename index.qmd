@@ -34,7 +34,7 @@ style: |
 
 I am a behavioural biologist passionate about understanding how animals make decisions and exploring the ecological consequences of their behaviour. My work is interdisciplinary, incorporating cognition, ecology and evolution with empirical and theoretical approaches to uncover the miseries of animal behaviour. 
 
-Recently, I finished my PhD at [University of Münster, Department of Behavioural Biology at](https://www.uni-muenster.de/Biologie.NeuroVer/Verhaltensbiologie/en/Team/index.html) as a part of collaborative research center for a [novel synthesis of individualisation (NC3)](https://www.uni-bielefeld.de/fakultaeten/biologie/forschung/verbuende/sfb_nc3/about/index.xml) and a student in [Münster Graduate School of Evolution (MGSE)](https://www.uni-muenster.de/Evolution/mgse/people/markobracic.html).
+Recently, I finished my PhD at [University of Münster, Department of Behavioural Biology](https://www.uni-muenster.de/Biologie.NeuroVer/Verhaltensbiologie/en/Team/index.html) as a part of collaborative research center for a [novel synthesis of individualisation (NC3)](https://www.uni-bielefeld.de/fakultaeten/biologie/forschung/verbuende/sfb_nc3/about/index.xml) and a student in [Münster Graduate School of Evolution (MGSE)](https://www.uni-muenster.de/Evolution/mgse/people/markobracic.html).
 
 Nature fascinates me so you'll often find me with my nose to the ground observing ants or gazing into trees in search of a bird.
 
