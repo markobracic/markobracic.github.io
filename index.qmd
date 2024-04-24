@@ -1,10 +1,12 @@
 ---
 title: "Dr. Marko Bračić<br> <small style='font-size: 50%;'>Behavioural biologist</small>"
 about:
-  template: jolla
+  template: trestles
   id: about-block
   image: "img/MarkoBracic.jpg"
   image-shape: rounded
+  image-width: 12em
+  
   links:
     - icon: twitter
       text: Twitter
@@ -17,16 +19,19 @@ about:
       href: http://www.linkedin.com/in/markobračić
     - icon: envelope
       text: Email
-      href: "mailto:MAIL:mbracic192@gmail.com" 
+      href: "mailto:mbracic192@gmail.com" 
+    - text: "ORCiD: 0000-0001-6528-3572"
+      href: https://orcid.org/0000-0001-6528-3572
 ---
-
-::: {#about-block}
-:::
 
 # Welcome to my website!
 
-I am a behavioural biologist passionate about understanding how animals make decisions and exploring the ecological consequences of their behaviour. My work is interdisciplinary, incorporating cognition, ecology and evolution with empirical and theoretical approaches to uncover miseries of animal behaviour. I am strongly committed to open science and support the Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology (SORTEE). 
+I am a behavioural biologist passionate about understanding how animals make decisions and exploring the ecological consequences of their behaviour. My work is interdisciplinary, incorporating cognition, ecology and evolution with empirical and theoretical approaches to uncover the miseries of animal behaviour. 
 
-The nature fascinates me so you'll often find me with my nose to the ground observing ants or gazing into trees in search of a bird.
+Recently, I finished my PhD at [University of Münster, Department of Behavioural Biology at](https://www.uni-muenster.de/Biologie.NeuroVer/Verhaltensbiologie/en/Team/index.html) as a part of collaborative research center for a [novel synthesis of individualisation (NC3)](https://www.uni-bielefeld.de/fakultaeten/biologie/forschung/verbuende/sfb_nc3/about/index.xml) and a student in [Münster Graduate School of Evolution (MGSE)](https://www.uni-muenster.de/Evolution/mgse/people/markobracic.html).
 
-I love to engage in knowledge and experience exchange, not only inside of academia but also with the public. So do not hesitate to reach out! Check out my projects and publication and [contact me](mailto:mbracic192@gmail.com" ) if you have any questions or would like to discuss ideas.
+Nature fascinates me so you'll often find me with my nose to the ground observing ants or gazing into trees in search of a bird.
+
+I love to engage in knowledge and experience exchange, not only inside academia but also with the public. So do not hesitate to reach out! Check out my [projects](projects/) and [publications](publications/) and [contact me](mailto:mbracic192@gmail.com) if you have any questions or would like to discuss ideas. 
+
+I firmly believe in open and transparent science, so all my publications are open-access and contain reproducible data and analysis code. To further support open science, I am a member of the Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology [SORTEE](https://www.sortee.org/), and I encourage you to consider joining this community.
