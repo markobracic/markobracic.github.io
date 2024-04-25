@@ -40,5 +40,5 @@ html_4 <- c(
          '&ndash; Pulled automatically from my <a href="https://scholar.google.com/citations?hl=en&user=nNY7GfwAAAAJ">Google Scholar profile</a>.</p>'), html_3)
     
 # write the html list to a file
-writeLines(html_4, "publication_list.html")
+writeLines(html_4, "publications/publication_list.html")
 ```

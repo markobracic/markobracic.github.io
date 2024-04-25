@@ -1,4 +1,5 @@
 ---
+title-meta: "About"
 title: "Dr. Marko Bračić<br> <small style='font-size: 50%;'>Behavioural biologist</small>"
 about:
   template: trestles
@@ -23,16 +24,9 @@ about:
     - text: "ORCiD: 0000-0001-6528-3572"
       href: https://orcid.org/0000-0001-6528-3572
       
-style: |
-  .content {
-      max-width: 800px; /* Adjust the max-width as needed */
-      margin: 0 auto; /* Center the content horizontally */
-      }
 ---
 
-# Welcome to my website!
-
-I am a behavioural biologist passionate about understanding how animals make decisions and exploring the ecological consequences of their behaviour. My work is interdisciplinary, incorporating cognition, ecology and evolution with empirical and theoretical approaches to uncover the miseries of animal behaviour. 
+Hi and welcome to my personal website. I am a behavioural biologist passionate about understanding how animals make decisions and exploring the ecological consequences of their behaviour. My work is interdisciplinary, incorporating cognition, ecology and evolution with empirical and theoretical approaches to uncover the miseries of animal behaviour. During my PhD, I delved into the exciting realm of animal personality, investigating individual variation in "optimism" in mice. See my [projects](projects/) for more details and cool videos!
 
 Recently, I finished my PhD at [University of Münster, Department of Behavioural Biology](https://www.uni-muenster.de/Biologie.NeuroVer/Verhaltensbiologie/en/Team/index.html) as a part of collaborative research center for a [novel synthesis of individualisation (NC3)](https://www.uni-bielefeld.de/fakultaeten/biologie/forschung/verbuende/sfb_nc3/about/index.xml) and a student in [Münster Graduate School of Evolution (MGSE)](https://www.uni-muenster.de/Evolution/mgse/people/markobracic.html).
 

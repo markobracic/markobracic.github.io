@@ -1,9 +1,25 @@
 # This file controls the settings for the web site
+authorname: "Marko Bračić"
+draft: false
 
 # website settings
+project:
+  type: website
+  output-dir: docs
+
+  preview: 
+    port: 22222
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+title-meta: "Marko Bračić, behavioural biologist"
+description-meta: "Behavioural ecology | Animal personality| Optimism | Ants,| Data analyisis | Research | Cognition"
+
+
 website:
-  title: "Mako Bračić"                                # Your name
-  description: "Behavioural biologist"   # A brief slogan (optional)
+  title: "Marko Bračić"
+  description: "Behavioural ecology | Animal personality| Optimism | Ants,| Data analyisis | Research | Cognition"
   image: img/MarkoBracic.jpg
   favicon: img/ant.png
 
@@ -38,31 +54,30 @@ website:
   
   
 
-# Don't touch unless you know what you are doing :) ------------
   search: 
     location: navbar
     type: textbox
   page-footer: 
-    left: |
-      <span class="faux-block">&#169; 2024 Marko Bračić </span>
+    left: © 2024 Marko Bračić
     right: |
        <span class="faux-block">
-       <a href="https://github.com/markobracic/markobracic.github.io">
-       View source code on my GitHub
-       </a> 
+       View source code on <a href="https://github.com/markobracic/markobracic.github.io"> my GitHub</a> 
        </span>
+       <span class="faux-block"> 
+       Built with R and <a href="https://quarto.org/">Quarto</a></span>
+       
+  twitter-card: 
+    creator: "@MarkoBracic"
+    title: "Dr. Marko Bračić<br> <small style='font-size: 50%;'>Behavioural biologist</small>"
+    image: img/MarkoBracic.jpg
+    card-style: summary_large_image
+    
+  open-graph:
+    title: "Dr. Marko Bračić<br> <small style='font-size: 50%;'>Behavioural biologist</small>"
+    image: img/MarkoBracic.jpg
+    locale: en_US
 
        
-
-project:
-  type: website
-  output-dir: docs
-
-  preview: 
-    port: 22222
-    browser: true
-    watch-inputs: true
-    navigate: true
 
 execute:
   freeze: true
