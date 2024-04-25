@@ -21,6 +21,7 @@ description-meta: "Behavioural ecology | Animal personality| Optimism | Ants,| D
 
 
 website:
+  title: "Marko Bračić"
   description: "Behavioural ecology | Animal personality| Optimism | Ants,| Data analyisis | Research | Cognition"
   site-url: https://markobracic.github.io/index
   image: img/MarkoBracic.jpg
@@ -33,8 +34,6 @@ website:
     
     # your sub-pages
     left:
-      - text: "Marko Bračić"
-        href: index.qmd
       - text: "Projects"
         href: projects/index.qmd
       - text: "Publications"
