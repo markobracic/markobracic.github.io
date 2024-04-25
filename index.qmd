@@ -1,9 +1,11 @@
 ---
-title-meta: "About"
-title: "Dr. Marko Bračić<br> <small style='font-size: 50%;'>Behavioural biologist</small>"
+title-meta: "Marko Bračić, behavioural biologist"
+description-meta: "Behavioural ecology | Animal personality| Optimism | Ants,| Data analyisis | Research | Cognition"
+
+title: "Dr. Marko Bračić"
+subtitle: "Behavioural biologist"
 about:
   template: trestles
-  id: about-block
   image: "img/MarkoBracic.jpg"
   image-shape: rounded
   image-width: 12em
@@ -20,7 +22,7 @@ about:
       href: http://www.linkedin.com/in/markobračić
     - icon: envelope
       text: Email
-      href: "mailto:mbracic192@gmail.com" 
+      href: "mailto:REMOVETHISmbracic192@gmail.com" 
     - text: "ORCiD: 0000-0001-6528-3572"
       href: https://orcid.org/0000-0001-6528-3572
       
