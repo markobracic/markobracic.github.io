@@ -1,1 +1,1 @@
-Sitemap: https://markobracic.github.io/index/sitemap.xml
+Sitemap: https://markobracic.github.io/sitemap.xml

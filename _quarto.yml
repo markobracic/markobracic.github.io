@@ -23,7 +23,7 @@ description-meta: "Behavioural ecology | Animal personality| Optimism | Ants,| D
 website:
   title: "Marko Bračić"
   description: "Behavioural ecology | Animal personality| Optimism | Ants,| Data analyisis | Research | Cognition"
-  site-url: https://markobracic.github.io/index
+  site-url: https://markobracic.github.io/
   image: img/MarkoBracic.jpg
   favicon: img/ant.png
 
@@ -74,12 +74,12 @@ website:
   twitter-card: 
     creator: "@MarkoBracic"
     title: "Dr. Marko Bračić"
-    image: img/MarkoBracic.jpg
+    image: "https://markobracic.github.io/img/MarkoBracic.jpg"
     card-style: summary_large_image
     
   open-graph:
     title: "Dr. Marko Bračić"
-    image: img/MarkoBracic.jpg
+    image: "https://markobracic.github.io/img/MarkoBracic.jpg"
     locale: en_US
 
        
