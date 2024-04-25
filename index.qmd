@@ -1,6 +1,7 @@
 ---
 title-meta: "Marko Bračić, behavioural biologist"
 description-meta: "Behavioural ecology | Animal personality| Optimism | Ants,| Data analyisis | Research | Cognition"
+image: img/MarkoBracic.jpg
 
 title: "Dr. Marko Bračić"
 subtitle: "Behavioural biologist"
