@@ -1,5 +1,8 @@
 ---
 title: Publications
+
+execute:
+  freeze: true  # never re-render during project render
 ---
 
 Here are my latest publications:
