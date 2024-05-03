@@ -51,6 +51,9 @@ website:
         href: http://www.linkedin.com/in/markobračić
       - icon: twitter
         href: https://twitter.com/MarkoBracic
+      - icon: mastodon
+        href: https://ecoevo.social/@bracic
+        rel: me 
       - icon: envelope
         aria-label: email
         href: "mailto:REMOVETHISmbracic192@gmail.com"
