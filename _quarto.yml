@@ -25,7 +25,7 @@ website:
   description: "Behavioural ecology | Animal personality| Optimism | Ants,| Data analyisis | Research | Cognition"
   site-url: https://markobracic.github.io/
   image: img/MarkoBracic.jpg
-  favicon: img/ant.png
+  favicon: img/ant_favicon.png
 
   # start of the navigation bar at the top of the website
   navbar:
